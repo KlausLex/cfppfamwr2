@@ -9,7 +9,7 @@ def generate_launch_description():
         DeclareLaunchArgument(
             'octomap_path',
             # default_value="/opt/ros2_ws/src/collision_environment/geometry/mapfile.bt",
-            default_value="/opt/ros2_ws/src/collision_environment/geometry/BetaToolsRSC24L.bt",
+            default_value="/opt/ros2_ws/src/collision_environment/geometry/cabinet.bt",
             description='Path to the octomap file'
         ),
 
